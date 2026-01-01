@@ -21,7 +21,8 @@ clear
 cd ~/Downloads
 ls -CF
 read -p "Volständige Name der ISO: " isoName
-sudo mount --mkdir -o loop $isoDatei /mnt/iso
+sudo mkdir -p /mnt/iso
+sudo mount -o loop $isoDatei /mnt/iso
 
 sudo pacman -S lutris wine wine-mono wine_gecko
 
