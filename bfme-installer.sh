@@ -42,7 +42,7 @@ pause
 pacman -S unzip
 clear
 echo "Nun bitte folgende Datei herunterladen:
-https://www.gamespressure.com/download/the-lord-of-the-rings-the-battle-for-middle-earth-patch-106-all/z4136fd"
+https://www.gamepressure.com/download/the-lord-of-the-rings-the-battle-for-middle-earth-patch-106-all/z4136fd"
 
 ls -CF
 read -p "name der Datei: " dateiName
